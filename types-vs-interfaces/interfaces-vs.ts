@@ -5,15 +5,15 @@ interface IGame {
     title: string;
 }
 
-interface IDLC {
-    extra: string;
-}
+// interface IDLC {
+//     extra: string;
+// }
 
 // intersecção | extend
 interface IGameCollection extends IGame, IDLC {}
 
 // implements
-class CreateGame implements IGameCollection {}
+// class CreateGame implements IGameCollection {}
 
 // declarar função
 interface IgetSimilars {
@@ -21,7 +21,7 @@ interface IgetSimilars {
 }
 
 // Diferenças
-interface IID extends number {}
+// interface IID extends number {}
 
 // não consigo definir tuplas em interfaces
 interface ITuple {

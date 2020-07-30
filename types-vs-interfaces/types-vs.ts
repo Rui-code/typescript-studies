@@ -13,7 +13,7 @@ type TDLC = {
 type TGameCollection = TGame & TDLC & { content: boolean };
 
 // implements
-class TCreateGame implements TGameCollection {}
+// class TCreateGame implements TGameCollection {}
 
 // declarar função
 type getSimilars = (title: string) => void;
@@ -29,8 +29,8 @@ type TTuple = [number, number];
 [1, 2] as TTuple;
 
 // Apenas uma declaração por escopo
-type TJQuery = { a: string };
-type TJQuery = { b: string };
+// type TJQuery = { a: string };
+// type TJQuery = { b: string };
 
 // mais recomendado:
 // na maioria das vezes
