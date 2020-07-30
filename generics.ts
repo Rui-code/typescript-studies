@@ -4,7 +4,9 @@
 // V => value
 // E => Element
 
-function useState<S extends number | string = string> () {
+type numOrString = number | string;
+
+function useState<S extends numOrString = string> () {
     let state: S;
 
     function getState () {
