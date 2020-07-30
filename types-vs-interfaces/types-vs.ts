@@ -10,7 +10,7 @@ type TDLC = {
 };
 
 // intersection
-type TGameCollection = TGame & TDLC;
+type TGameCollection = TGame & TDLC & { content: boolean };
 
 // implements
 class TCreateGame implements TGameCollection {}
@@ -31,3 +31,7 @@ type TTuple = [number, number];
 // Apenas uma declaração por escopo
 type TJQuery = { a: string };
 type TJQuery = { b: string };
+
+// mais recomendado:
+// na maioria das vezes
+// React - Props
