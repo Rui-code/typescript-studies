@@ -1,2 +1,2 @@
 # typescript-studies
-A repo to store my TS studies
+## A repo to store my TS studies
